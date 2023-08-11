@@ -1,13 +1,13 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components';
 
 const FooterStyled = styled.footer`
-    width: 100vw;
-    height: 70px;
+  width: 100vw;
+  height: 70px;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    background-color: #122a57;
-`
+  background-color: #122a57;
+`;
 
-export default FooterStyled
+export default FooterStyled;
