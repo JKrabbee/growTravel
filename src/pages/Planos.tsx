@@ -37,7 +37,7 @@ function Planos() {
     <FlexContainerStyled modo="content">
       <PlanosStyled>
         <TittleStyled tamanho="lg" primary>
-          | Planos
+          Planos
         </TittleStyled>
         <ContainerCardsList>
           {planos.map((card) => (

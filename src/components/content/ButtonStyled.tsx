@@ -18,6 +18,10 @@ const ButtonSyled = styled.button<ButtonSyledProps>`
 
   cursor: pointer;
 
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+
   &:hover {
     font-weight: 700;
   }

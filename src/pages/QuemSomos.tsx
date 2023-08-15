@@ -11,7 +11,7 @@ function QuemSomos() {
       </ContentStyled>
       <ContentStyled>
         <TittleStyled tamanho="lg" primary>
-          | Quem Somos
+          Quem Somos
         </TittleStyled>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam neque consequuntur minima, Et alias

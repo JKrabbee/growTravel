@@ -31,6 +31,15 @@ const FlexContainerStyled = styled.div<FlexContainerStyledProps>`
           height: calc(100vh - 190px);
           align-items: center;
           justify-content: space-around;
+
+          @media (max-width: 1024px) {
+            height: auto;
+            margin: 45px auto;
+
+            flex-direction: column;
+
+            text-align: center;
+          }
         `;
       case 'footer':
         return css`
