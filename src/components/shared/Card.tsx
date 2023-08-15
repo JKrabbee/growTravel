@@ -1,3 +1,4 @@
+import ButtonSyled from '../content/ButtonStyled';
 import CardStyled from './CardStyled';
 
 interface CardProps {
@@ -12,7 +13,7 @@ function Card(props: CardProps) {
       <div>
         <img src={props.img} alt={props.imgAlt} />
         <h2>{props.text}</h2>
-        <button>Saiba Mais</button>
+        <ButtonSyled primary>Saiba Mais</ButtonSyled>
       </div>
     </CardStyled>
   );
